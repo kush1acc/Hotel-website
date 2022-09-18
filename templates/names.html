@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<p>This a graph that shows number of coustemers on the specific date</p>
+{% if chart %}
+<img src="data:image/png;base64, {{chart|safe}}" alt=" hi">
+{% endif %}
+
+</html>
