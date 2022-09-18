@@ -77,7 +77,6 @@ sqlparse==0.4.1
 tk==0.1.0
 Twisted==22.1.0
 twisted-iocpsupport==1.0.2
-txaio==20.12.1
 typing_extensions==4.0.1
 tzdata==2021.5
 ua-parser==0.10.0
